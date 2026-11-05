@@ -1,0 +1,17 @@
+{
+  "name": "EMO-SHIFT TRAVEL — Presskit",
+  "short_name": "EMO-SHIFT",
+  "description": "Presskit oficial de EMO-SHIFT TRAVEL, plataformas 2D narrativa de Grillo Studio.",
+  "lang": "es",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#111922",
+  "theme_color": "#111922",
+  "icons": [
+    { "src": "assets/logos/favicon-64.png", "sizes": "64x64", "type": "image/png" },
+    { "src": "assets/logos/logo-256.png", "sizes": "256x256", "type": "image/png" },
+    { "src": "assets/logos/logo-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/logos/logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

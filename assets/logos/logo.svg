@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="EMO-SHIFT TRAVEL">
+  <!-- Fondo tinta -->
+  <rect width="512" height="512" fill="#111922"/>
+  <!-- Marco cobre -->
+  <rect x="16" y="16" width="480" height="480" fill="none" stroke="#c98263" stroke-width="4"/>
+  <!-- Marca EMO-SHIFT (texto pixel-art via path simplificada) -->
+  <g font-family="'Courier New', monospace" font-weight="bold" text-anchor="middle">
+    <text x="256" y="180" font-size="64" letter-spacing="6" fill="#d59672" text-shadow="2px 2px 0 #402d2b">EMO-SHIFT</text>
+    <text x="256" y="240" font-size="44" letter-spacing="14" fill="#e5e0d4">TRAVEL</text>
+    <text x="256" y="290" font-size="16" letter-spacing="4" fill="#a093b6">VIAJE DE RECUERDOS</text>
+  </g>
+  <!-- 4 swatches de emociones -->
+  <g shape-rendering="crispEdges">
+    <!-- Ira -->
+    <rect x="96" y="340" width="64" height="64" fill="#bf6747"/>
+    <rect x="96" y="340" width="64" height="6" fill="#d48662"/>
+    <text x="128" y="430" font-family="'Courier New',monospace" font-size="12" font-weight="bold" text-anchor="middle" fill="#e5e0d4" letter-spacing="2">IRA</text>
+    <!-- Calma -->
+    <rect x="176" y="340" width="64" height="64" fill="#5c9289"/>
+    <rect x="176" y="340" width="64" height="6" fill="#86afa3"/>
+    <text x="208" y="430" font-family="'Courier New',monospace" font-size="12" font-weight="bold" text-anchor="middle" fill="#e5e0d4" letter-spacing="2">CALMA</text>
+    <!-- Miedo -->
+    <rect x="272" y="340" width="64" height="64" fill="#82729b"/>
+    <rect x="272" y="340" width="64" height="6" fill="#a697ba"/>
+    <text x="304" y="430" font-family="'Courier New',monospace" font-size="12" font-weight="bold" text-anchor="middle" fill="#e5e0d4" letter-spacing="2">MIEDO</text>
+    <!-- Alegría -->
+    <rect x="352" y="340" width="64" height="64" fill="#b5a45c"/>
+    <rect x="352" y="340" width="64" height="6" fill="#d0bd74"/>
+    <text x="384" y="430" font-family="'Courier New',monospace" font-size="11" font-weight="bold" text-anchor="middle" fill="#e5e0d4" letter-spacing="2">ALEGRÍA</text>
+  </g>
+  <!-- Créditos al pie -->
+  <text x="256" y="478" font-family="'Courier New',monospace" font-size="11" text-anchor="middle" fill="#7b8188" letter-spacing="3">GRILLO STUDIO · 2026</text>
+</svg>
