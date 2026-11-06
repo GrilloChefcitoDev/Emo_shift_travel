@@ -44,7 +44,7 @@ Se consultaron páginas de los propios creadores o tiendas oficiales para observ
 |---|---|---|
 | **Celeste** | Un plataformas de precisión puede presentar una historia personal en paralelo al reto, con pocas acciones expresivas y reintentos rápidos. Para EMO-SHIFT se toma la claridad emocional y de lectura, no la dificultad extrema. | [Ficha oficial en Steam](https://store.steampowered.com/app/504230/Celeste/) |
 | **GRIS** | Uso del espacio, la composición y cambios cromáticos para acompañar una experiencia emocional sin depender de largos textos. EMO-SHIFT aplica el principio con una paleta pixel-art propia. | [Nomada Studio · GRIS](https://nomada.studio/gris-game/) |
-| **Neva** | El vínculo entre protagonistas evoluciona con el viaje y se expresa en acciones compartidas. Inspira los gestos de cuidado del recuerdo de Tomás; su voz no sustituye a la persona real. | [Nomada Studio · Neva](https://nomada.studio/) |
+| **Neva** | El vínculo entre protagonistas evoluciona con el viaje y se expresa en acciones compartidas. Inspira los gestos de cuidado de la proyección del hermano; su voz no sustituye a la persona real. | [Nomada Studio · Neva](https://nomada.studio/) |
 | **Hollow Knight** | Regiones con silueta, atmósfera y orientación propias dentro de un mundo 2D interconectado. EMO-SHIFT distingue estaciones por forma, materiales y color plano. | [Team Cherry en Steam](https://store.steampowered.com/app/367520/Hollow_Knight/) |
 
 El cambio de mapa también responde a la captura de Duolingo entregada por el usuario: recorrido vertical serpenteante, nodos de distintas formas y secciones temáticas. Es referencia de organización visual, no referencia de contenido del juego.

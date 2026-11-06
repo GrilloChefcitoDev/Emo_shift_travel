@@ -37,7 +37,7 @@ Esta guía cubre la versión integrada v13.14: historia, controles, progresión,
 - **Estructura:** campaña ramificada, recuerdos secretos, criaturas y cuatro jefes principales.
 - **Resolución lógica:** 960 × 540 px; tiles de 28 × 28 px.
 - **Contenido:** 27 mapas en cuadrícula de 120 × 18 tiles (21 mapas de campaña/ruta y 6 secretos).
-- **Tono:** íntimo y esperanzador. La fantasía del Andén Cero representa recuerdos de Nara, no un diagnóstico ni la mente de Tomás.
+- **Tono:** íntimo y esperanzador. La fantasía del Andén Cero representa los recuerdos de Nara y su búsqueda de identidad mientras ella se recupera en el hospital, no un diagnóstico ni la mente de su hermano.
 - **Dirección creativa vigente:** conservar el diseño y las mecánicas centrales de Nara; usar pixel-art, colores no neón y evitar degradados en la dirección visual.
 
 ## Cómo iniciar y guardar
@@ -54,43 +54,43 @@ El guardado valida sus campos y migra formatos antiguos conocidos. Los controles
 
 ### Prólogo: la sala de espera
 
-Nara espera noticias de su hermano Tomás en un hospital. Él está vivo y recibe atención profesional después de una crisis que puso su vida en peligro. Su madre llevó mandarinas. El reloj y una máquina de café acompañan el silencio. En el bolsillo de Nara aparece una cinta vieja con la letra de su hermano. Al reproducirla, el clic del aparato se mezcla con el reloj y el hospital se transforma en una estación imposible.
+Nara, una adolescente, está hospitalizada después de una crisis que puso su vida en peligro. Recibe atención profesional. Su hermano mayor la cuida en la vida real: le lleva mandarinas, le hace compañía, sigue de cerca su recuperación. El reloj y una máquina de café acompañan el silencio. En el bolsillo de Nara aparece una cinta vieja con la letra de su hermano. Al reproducirla, el clic del aparato se mezcla con el reloj del hospital y la sala se transforma en una estación imposible.
 
 ### El Andén Cero
 
-El Andén Cero es el mundo interior de Nara, formado por recuerdos, miedos y preguntas sin resolver. No es una prueba que ella tenga que superar para curar a Tomás. La figura que la guía, el **Recuerdo de Tomás**, nace de bromas, gestos y momentos que compartieron. Puede acompañarla por la memoria, pero no conoce el presente ni habla por el Tomás real.
+El Andén Cero es el mundo interior de Nara, formado por recuerdos, miedos y preguntas sin resolver sobre quién es ella. No es una prueba médica ni el reflejo de la mente de su hermano: es la forma en que Nara organiza sus propias memorias mientras su cuerpo se recupera. La figura que la acompaña es una **proyección de su propia mente con el aspecto de su hermano**: no es él, no conoce lo que él sabe del presente, pero le sirve de guía porque encarna lo que Nara recuerda de él — sus bromas, sus gestos, los momentos que compartieron.
 
-De niños, Nara y Tomás compartían viajes en bus, mandarinas y una cinta que se trababa. En casa también aprendieron a reconocer pasos detrás de una puerta. La violencia que sufrió su madre se sugiere con puertas cerradas, silencios y rutinas alteradas; no se muestra como espectáculo. Su madre intenta protegerlos y luego encuentra una vida más segura, aunque las huellas emocionales permanecen.
+De niños, Nara y su hermano compartían viajes en bus, mandarinas y una cinta que se trababa. En casa también aprendieron a reconocer pasos detrás de una puerta. La violencia que sufrió su madre se sugiere con puertas cerradas, silencios y rutinas alteradas; no se muestra como espectáculo. Su madre intenta protegerlos y luego encuentra una vida más segura, aunque las huellas emocionales permanecen.
 
-Con los años, la madre enferma. Citas, cuentas, transporte, trabajo y cuidados empiezan a ocupar la mesa familiar. Tomás toma turnos y trata de no añadir preocupaciones a las de Nara. Ella ve una silla vacía y mensajes sin respuesta, pero no ve el turno agotador que él acaba de terminar. Ambos interpretan el silencio desde su dolor. La historia reconoce que esas ausencias lastiman sin convertirlas en prueba de que dejaron de quererse.
+Con los años, la madre enferma. Citas, cuentas, transporte, trabajo y cuidados empiezan a ocupar la mesa familiar. El hermano de Nara toma turnos y trata de no añadir preocupaciones a las de ella. Nara ve una silla vacía y mensajes sin respuesta, pero no ve el turno agotador que él acaba de terminar. Ambos interpretan el silencio desde su dolor. La historia reconoce que esas ausencias lastiman sin convertirlas en prueba de que dejaron de quererse.
 
 ### El recorrido de Nara
 
-En estaciones, canales, archivos, jardines y recuerdos, Nara encuentra ecos que repiten interpretaciones incompletas: “me dejó”, “debí haberlo sabido”, “si no lo arreglo yo, nadie lo hará”. No son villanos humanos ni diagnósticos; son pensamientos que parecen ciertos cuando se repiten.
+En estaciones, canales, archivos, jardines y recuerdos, Nara busca su identidad: entender qué le pasó, qué sintió, qué necesita ahora. Los ecos que encuentra repiten interpretaciones incompletas de sí misma: “me dejó”, “debí haberlo sabido”, “si no lo arreglo yo, nadie lo hará”. No son villanos humanos ni diagnósticos; son pensamientos que parecen ciertos cuando se repiten.
 
-El Espejo Roto multiplica los movimientos de Nara y devuelve acusaciones que ninguno de los hermanos pudo comprobar. Ella aprende a reconocer a la vez que la ausencia le dolió y que no conocía los turnos, la vergüenza y el agotamiento de Tomás. Dos personas pueden recordar distinto sin que una esté mintiendo.
+El Espejo Roto multiplica los movimientos de Nara y devuelve acusaciones que ella misma no ha podido comprobar. Aprende a reconocer que la ausencia le dolió, que no conocía los turnos y el agotamiento de su hermano cuidándola, y que dos personas pueden recordar distinto sin que una esté mintiendo.
 
 En los recuerdos pequeños quedan el café, las historias inventadas para otros pacientes, las monedas del bus y una mandarina compartida. Los momentos buenos no borran los malos; ambos forman parte de la vida que Nara quiere conservar.
 
 ### Epílogo
 
-La última cinta no promete una solución mágica. Tomás dice que, si algún día Nara quiere hablar, pueden empezar con un “hola”. El Recuerdo de Tomás deja de hablar por el presente: ese lugar les pertenece a los dos hermanos reales, si ambos quieren ocuparlo.
+La última cinta no promete una solución mágica. En la grabación, su hermano dice que, si algún día Nara quiere hablar, pueden empezar con un “hola”. La proyección del Andén Cero deja de hablar por el presente: ese lugar le pertenece a Nara y a su hermano real, si ambos quieren ocuparlo.
 
-Nara vuelve al hospital y le pide a tía Clara que la acompañe a llamar. No promete que todo estará bien ni exige una explicación inmediata. La recuperación de Tomás continúa con profesionales, tiempo y una red de apoyo. El gesto final es pequeño: abrir la posibilidad de conversar otra vez.
+Nara vuelve al hospital, donde su hermano sigue cuidándola. No promete que todo estará bien ni exige una explicación inmediata. La recuperación continúa con profesionales, tiempo y una red de apoyo. El gesto final es pequeño: abrir la posibilidad de conversar otra vez.
 
-La historia completa con escenas, diálogos y recuerdos está en [GUION_HISTORIA_COMPLETA.md](docs/GUION_HISTORIA_COMPLETA.md).
+La historia completa con escenas, diálogos y recuerdos está en [GUION_HISTORIA.md](docs/GUION_HISTORIA.md).
 
 ### Tratamiento de temas sensibles
 
-La crisis de Tomás no se atribuye a una causa única y no se describe cómo ocurrió. Nara no es responsable de prevenirla ni curarla. El amor familiar puede acompañar, pero no sustituye la atención profesional. La violencia doméstica se aborda desde sus efectos y la seguridad, no con imágenes explícitas. La historia trata límites, cuidado cotidiano, agotamiento, comunicación y esperanza sin prometer una recuperación lineal.
+La crisis de Nara no se atribuye a una causa única y no se describe cómo ocurrió. Su hermano no es responsable de prevenirla ni curarla; la sostiene con presencia y cuidado, sin sustituir la atención profesional. El amor familiar puede acompañar, pero no sustituye la atención profesional. La violencia doméstica se aborda desde sus efectos y la seguridad, no con imágenes explícitas. La historia trata límites, cuidado cotidiano, agotamiento, comunicación y esperanza sin prometer una recuperación lineal.
 
 ## Personajes
 
 | Personaje | Papel |
 |---|---|
-| **Nara** | Protagonista. Aprende a nombrar el dolor, observar sus interpretaciones y aceptar compañía. |
-| **Tomás** | Hermano mayor. En el presente está hospitalizado y recibe cuidado profesional. |
-| **Recuerdo de Tomás** | Guía creada a partir de las memorias de Nara; no reemplaza al hermano real. |
+| **Nara** | Protagonista. Adolescente hospitalizada que, en su mente, recorre el Andén Cero para buscar su identidad. |
+| **El hermano** | Hermano mayor de Nara. En la vida real la cuida y acompaña mientras ella se recupera en el hospital. |
+| **Proyección del hermano** | Guía del Andén Cero: una proyección de la mente de Nara con el aspecto de su hermano. No es él y no conoce su presente. |
 | **Mamá** | Madre de ambos. Tiene afecto, humor y autonomía; sobrevivió una relación violenta y atravesó una enfermedad. |
 | **Tía Clara** | Familiar cercana que acompaña a Nara a iniciar la llamada. |
 | **Ecos** | Criaturas y voces que encarnan recuerdos, temores o interpretaciones parciales. |
@@ -291,11 +291,11 @@ El desenlace se calcula al terminar L12 y el juego registra cada uno para el log
 
 | Final | Condición | Cierre |
 |---|---|---|
-| **A · Reencuentro** | Ruta principal, sin ruta alternativa ni secreto completado. | Nara pide a tía Clara que la acompañe a llamar; Tomás responde que recibe ayuda y quiere hablar despacio. |
+| **A · Reencuentro** | Ruta principal, sin ruta alternativa ni secreto completado. | Nara pide a tía Clara que la acompañe a llamar; su hermano responde que la acompaña y quiere hablar despacio. |
 | **B · El Andén Olvidado** | Se completó L13 o L14, o cualquier secreto, pero no se cumple C. | Otra cinta recuerda la sala de espera; los hermanos reconocen la distancia y dejan abierta la conversación. |
 | **C · Resonancia Perfecta** | Se completaron L13 y L14, además de S1. | La familia acepta que no tiene que resolverlo todo hoy y acuerda seguir acompañándose. |
 
-No se afirma que una llamada cure a Tomás ni que el dolor desaparezca. El cuidado y la recuperación continúan después del cierre.
+No se afirma que una llamada cure a Nara ni que el dolor desaparezca. El cuidado y la recuperación continúan después del cierre.
 
 ## Cooperativo y juego en red
 
@@ -326,9 +326,9 @@ El selector organiza tarjetas por capítulo y tramo en una cuadrícula, no en po
 
 ### Lectura de mapas y cinemáticas v13.12
 
-Los trazados jugables combinan perfiles distintos de terrazas, huecos y desvíos opcionales. L19 conserva un plano dedicado con saltos de distinto ritmo, checkpoints, una barrera central y una ruta alta opcional. En L17 las válvulas quedan en dos estaciones separadas. El validador recorre la conectividad estática, pero no garantiza cada salto en tiempo real. Las escenas tienen menos utilería repetida: la cantidad de ventanas, mesa y objetos cambia según el lugar; los cierres conservan su utilería específica. Tomás se dibuja sin placa rectangular ni halo circular.
+Los trazados jugables combinan perfiles distintos de terrazas, huecos y desvíos opcionales. L19 conserva un plano dedicado con saltos de distinto ritmo, checkpoints, una barrera central y una ruta alta opcional. En L17 las válvulas quedan en dos estaciones separadas. El validador recorre la conectividad estática, pero no garantiza cada salto en tiempo real. Las escenas tienen menos utilería repetida: la cantidad de ventanas, mesa y objetos cambia según el lugar; los cierres conservan su utilería específica. La proyección del hermano se dibuja sin placa rectangular ni halo circular.
 
-El arte combina pixel-art, fachadas y parallax urbano con motivos diferentes para andenes, canales, archivos, azoteas, jardines y hospital. Los detalles del cielo y el fondo dan escala sin ocultar plataformas y amenazas. La paleta usa colores terrosos, vegetales, azulados y cálidos, sin neón ni degradados. Las criaturas tienen sprites direccionales; la decoración no necesariamente tiene colisión. Las cinemáticas integran los subtítulos al encuadre y varían utilería, escenario y ritmo. Los recuerdos se apoyan en lugares cotidianos; las escenas de jefe usan fondos propios. Tomás se representa con su sprite, no con otra instancia de Nara.
+El arte combina pixel-art, fachadas y parallax urbano con motivos diferentes para andenes, canales, archivos, azoteas, jardines y hospital. Los detalles del cielo y el fondo dan escala sin ocultar plataformas y amenazas. La paleta usa colores terrosos, vegetales, azulados y cálidos, sin neón ni degradados. Las criaturas tienen sprites direccionales; la decoración no necesariamente tiene colisión. Las cinemáticas integran los subtítulos al encuadre y varían utilería, escenario y ritmo. Los recuerdos se apoyan en lugares cotidianos; las escenas de jefe usan fondos propios. La proyección del hermano se representa con su sprite, no con otra instancia de Nara.
 
 Los diálogos de campaña, recuerdos, jefes y desenlaces se revisaron para usar frases más breves y concretas. Nara puede expresar dudas y dolor sin que la escena se convierta en una explicación de las mecánicas. Las ayudas de nivel siguen dando instrucciones directas. Los planos tienen movimiento de cámara propio y suave por escenario, sin zoom repentino entre líneas; la utilería se reserva para recuerdos donde cumple un propósito. El [informe de referencias y cambios de cinemática](docs/MEJORA_CINEMATICAS_REFERENCIAS_2026-10-30.md) registra las observaciones de Celeste, Hollow Knight y el video de diseño.
 

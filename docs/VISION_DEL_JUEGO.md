@@ -10,7 +10,7 @@ Jugar se siente como recorrer recuerdos que tienen reglas propias: observar el e
 
 - **Type**: Plataformas 2D de desplazamiento lateral con exploración por niveles conectados desde un mapa de campaña ramificado. La jugadora cambia de emoción en tiempo real para modificar habilidades e interacciones con el entorno.
 - **Inspirations**: De Celeste toma como referencia la precisión del movimiento y la posibilidad de expresar esfuerzo mediante las plataformas. De Gris aporta una sensibilidad visual y una progresión ligada a estados emocionales. De Hollow Knight inspira la lectura de un mundo con identidad propia y recorridos conectados. Inside sirve como referencia para atmósferas silenciosas y escenas visuales, aunque EMO-SHIFT TRAVEL también usa diálogos y narración. Estas obras son referencias; el mundo, la historia y los personajes del proyecto son propios.
-- **What makes it theirs**: Las emociones son acciones de juego y lenguajes para leer el espacio. Ira potencia el dash y rompe barreras; Calma permite flotar sobre agua y activar vapor; Miedo revela plataformas ocultas; Alegría habilita el doble salto y aprovecha corrientes de viento. La jugadora cambia de emoción con las teclas numéricas. Estas reglas acompañan la historia propia de Nara, Tomás y los recuerdos familiares.
+- **What makes it theirs**: Las emociones son acciones de juego y lenguajes para leer el espacio. Ira potencia el dash y rompe barreras; Calma permite flotar sobre agua y activar vapor; Miedo revela plataformas ocultas; Alegría habilita el doble salto y aprovecha corrientes de viento. La jugadora cambia de emoción con las teclas numéricas. Estas reglas acompañan la historia propia de Nara, su hermano y los recuerdos familiares.
 
 ## Look and Feel
 
@@ -19,7 +19,7 @@ Jugar se siente como recorrer recuerdos que tienen reglas propias: observar el e
 
 ## The Hero, the World, the Moment
 
-Nara es una adolescente que intenta entender qué ocurrió entre ella y su hermano mayor, Tomás. El Tomás real está vivo y recibe atención profesional en el hospital después de una crisis que puso su vida en peligro. La figura que acompaña a Nara dentro del Andén Cero es el Recuerdo de Tomás: una presencia construida con memorias compartidas, no un sustituto del hermano ni una voz que conozca su estado actual. La historia también aborda el cuidado de su madre, la violencia familiar sugerida sin mostrar agresiones y las conversaciones aplazadas.
+Nara es una adolescente hospitalizada después de una crisis que puso su vida en peligro. Mientras su cuerpo se recupera con atención profesional, en su mente emprende un viaje por el Andén Cero para buscar su identidad y comprender qué le ocurrió. En la vida real, su hermano mayor la cuida y acompaña. Dentro del Andén Cero, la guía una **proyección de la mente de Nara con el aspecto de su hermano**: no es él, no conoce su presente, pero encarna lo que Nara recuerda de él. La historia también aborda el cuidado de su madre, la violencia familiar sugerida sin mostrar agresiones y las conversaciones aplazadas.
 
 El Andén Cero conecta los recuerdos y las rutas de la campaña. La jugadora descubre nuevos tramos desde el mapa de niveles; no es un mundo abierto con un único hub explorable. El cierre principal ocurre en **La Voz Original**, tras la convergencia de los caminos de campaña. Los niveles secretos y las rutas opcionales añaden recuerdos y pueden cambiar el desenlace.
 
@@ -41,4 +41,4 @@ La versión jugable de referencia es v13.9: campaña de 27 mapas entre niveles p
 
 ¿Las cinemáticas y recuerdos deben seguir activándose al llegar a niveles o escenas concretas, o algunas memorias opcionales deberían depender de explorar rutas específicas?
 
-¿El mapa ramificado debe mostrar desde el principio las rutas todavía bloqueadas, o conviene que la jugadora descubra parte de ellas al avanzar y hablar con el Recuerdo de Tomás?
+¿El mapa ramificado debe mostrar desde el principio las rutas todavía bloqueadas, o conviene que la jugadora descubra parte de ellas al avanzar y hablar con la proyección del hermano?

@@ -2,7 +2,7 @@
 
 Resumen técnico vigente de la copia de trabajo. Para la historia, consulta el [guion](GUION_HISTORIA_COMPLETA.md); para esta auditoría, [revisión del ZIP v13.5](REVISION_ZIP_v13.5.md), [informe v13.12](ACTUALIZACION_v13.12.md), [comparación de versiones](AUDITORIA_COMPARATIVA_v13.12.md), [informe v13.11](ACTUALIZACION_v13.11.md) y [revisión de capturas](REVISION_CAPTURAS_2026-10-30.md); para referencia extensa e histórica, [manual completo](../MANUAL_COMPLETO_DEL_JUEGO.md).
 
-Las cinemáticas (`cinematic`, `story` y `bossIntro`) se renderizan sin un segundo jugador dibujado debajo de la viñeta. Para manifestar a Tomás, las escenas usan su sprite propio, no una segunda instancia de Nara. Los recuerdos tienen ambientes propios; las conversaciones integran subtítulos al plano y las intros de jefes varían escenario. Los diálogos y textos de nivel se revisaron para sonar más cercanos, sin quitar las instrucciones necesarias. La revisión visual de los videos y los cambios están en [mejora de cinemáticas y textos](MEJORA_CINEMATICAS_REFERENCIAS_2026-10-30.md) y la causa del sprite duplicado en [revisión de orientación](REVISION_CINEMATICAS_Y_ORIENTACION_2026-10-30.md).
+Las cinemáticas (`cinematic`, `story` y `bossIntro`) se renderizan sin un segundo jugador dibujado debajo de la viñeta. Para manifestar a la proyección del hermano, las escenas usan su sprite propio, no una segunda instancia de Nara. Los recuerdos tienen ambientes propios; las conversaciones integran subtítulos al plano y las intros de jefes varían escenario. Los diálogos y textos de nivel se revisaron para sonar más cercanos, sin quitar las instrucciones necesarias.
 
 ## Arquitectura
 

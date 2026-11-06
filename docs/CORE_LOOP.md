@@ -3,7 +3,7 @@
 **Material de reunión · v13.3**  
 **Copia integrada de trabajo:** v13.3 · **Juego:** plataformas 2D narrativo de emociones
 
-> **En una frase:** explora una estación hecha de recuerdos, cambia de emoción para transformar el camino, supera sus retos y recupera piezas que ayudan a Nara a comprender su historia y acercarse a Tomás, que está recibiendo atención en el hospital.
+> **En una frase:** explora una estación hecha de recuerdos, cambia de emoción para transformar el camino, supera sus retos y recupera piezas que ayudan a Nara, hospitalizada, a buscar su identidad mientras su hermano la cuida en la vida real.
 
 ## Diagrama principal
 
@@ -31,7 +31,7 @@ El ciclo va de **leer** a **actuar**, y de la acción a una nueva lectura: la es
 |---|---|
 | **¿Qué hace el jugador?** | Explora y reinterpreta el entorno al cambiar de emoción; supera retos y avanza por una estación hecha de recuerdos. |
 | **¿Qué se lo impide?** | Terreno y rutas interrumpidas, peligros, enemigos y jefes, puzles que piden la emoción o el orden adecuados, y la incertidumbre de los recuerdos incompletos. |
-| **¿Por qué sigue?** | Quiere comprender cómo vivieron de forma distinta la enfermedad y el cuidado de su madre, y decidir cómo acercarse a su hermano sin suponer que una llamada lo resolverá todo. |
+| **¿Por qué sigue?** | Quiere comprender cómo vivieron de forma distinta la enfermedad y el cuidado de su madre, y decidir cómo acercarse a su hermano sin suponer que una llamada lo resolverá todo. Nara busca su identidad mientras su cuerpo se recupera. |
 
 ## Emociones: la decisión que mueve el ciclo
 
