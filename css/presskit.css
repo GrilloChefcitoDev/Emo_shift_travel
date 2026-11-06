@@ -731,3 +731,14 @@ a:focus-visible,button:focus-visible,.doc-card:focus-visible,.gallery-item:focus
   .keyart-img{max-height:50vh;}
   .keyart-caption{font-size:9px;text-align:center;}
 }
+
+/* v13.17 — Logo del usuario en el hero */
+.hero-logo-img{
+  max-width: min(560px, 90%);
+  height: auto;
+  margin: 16px 0 20px;
+  filter: drop-shadow(4px 4px 0 rgba(0,0,0,.5));
+}
+@media (max-width: 768px){
+  .hero-logo-img{ max-width: 95%; }
+}
