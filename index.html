@@ -27,14 +27,15 @@
 <body>
 <a href="#main" class="skip-link">Saltar al contenido</a>
 
-<!-- ============ NAV ============ -->
 <nav class="nav" id="nav" aria-label="Navegación principal">
   <div class="nav-inner">
     <a href="#hero" class="nav-brand">EMO-SHIFT TRAVEL</a>
     <div class="nav-links">
       <a href="#portada">Portada</a>
       <a href="#historia">Historia</a>
+      <a href="#personajes">Personajes</a>
       <a href="#emociones">Emociones</a>
+      <a href="#mecanicas">Mecánicas</a>
       <a href="#galeria">Galería</a>
       <a href="#ficha">Ficha</a>
       <a href="#equipo">Equipo</a>
@@ -46,18 +47,18 @@
 
 <main id="main">
 
-<!-- ============ HERO ============ -->
+<!-- HERO -->
 <section class="hero" id="hero">
   <div class="hero-content">
     <div class="hero-badges">
-      <span class="hero-badge gold">v13.18</span>
+      <span class="hero-badge gold">v13.20</span>
       <span class="hero-badge accent">GRILLO STUDIO</span>
       <span class="hero-badge">PLATAFORMAS 2D · NARRATIVA EMOCIONAL</span>
     </div>
     <img src="assets/logos/logo-landscape.png" alt="EMO-SHIFT TRAVEL — Un viaje por los recuerdos" class="hero-logo-img">
     <p class="hero-tagline">Nara está en coma. En su mente, una cinta la transporta al <strong>Andén Cero</strong>. Debe recuperar sus recuerdos y derrotar a <strong>La Voz Original</strong>.</p>
     <div class="hero-ctas">
-      <a href="#contacto" class="btn-primary"><img src="assets/icons/play.svg" alt="" width="14" height="14"> Descargar presskit</a>
+      <a href="#trailer" class="btn-primary">Ver trailer</a>
       <a href="#portada" class="btn-secondary">Ver portada</a>
     </div>
     <div class="hero-badges">
@@ -69,94 +70,291 @@
   </div>
 </section>
 
-<!-- ============ KEY ART / PORTADA ============ -->
+<!-- KEY ART -->
 <section class="keyart" id="portada">
   <figure class="keyart-figure">
-    <img src="assets/promo/keyart-cover.png" alt="Portada de EMO-SHIFT TRAVEL: Nara en el Andén Cero con la proyección de su hermano y un tren de recuerdos al fondo" class="keyart-img">
+    <img src="assets/promo/keyart-cover.png" alt="Portada de EMO-SHIFT TRAVEL" class="keyart-img">
     <figcaption class="keyart-caption">EMO-SHIFT TRAVEL · Key art oficial · Grillo Studio · 2026</figcaption>
   </figure>
 </section>
 
-<!-- ============ HISTORIA (resumida, más visual) ============ -->
+<!-- TRAILER -->
+<section class="trailer" id="trailer">
+  <div class="trailer-container">
+    <div class="section-kicker">Video</div>
+    <h2 class="section-title">Trailer oficial</h2>
+    <div class="section-divider"></div>
+    <div class="trailer-video">
+      <div class="trailer-placeholder">
+        <button class="trailer-play" onclick="document.getElementById('trailerAudio').play(); this.style.display='none'; document.querySelector('.trailer-canvas').style.display='block'; startTrailer();">
+          <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+        </button>
+        <div class="trailer-title">EMO-SHIFT TRAVEL</div>
+        <div class="trailer-sub">Viaje de Recuerdos · Grillo Studio</div>
+        <canvas class="trailer-canvas" id="trailerCanvas" width="900" height="506" style="display:none;width:100%;height:100%;image-rendering:pixelated;"></canvas>
+      </div>
+    </div>
+    <p style="text-align:center;margin-top:12px;font-size:13px;color:var(--muted);">Trailer generado proceduralmente con capturas del juego y música original</p>
+  </div>
+  <audio id="trailerAudio" loop>
+    <source src="assets/music/menu.mp3" type="audio/mp3">
+  </audio>
+</section>
+
+<!-- HISTORIA -->
 <section class="story" id="historia">
   <div class="container">
     <div class="section-kicker">Narrativa</div>
     <h2 class="section-title">Historia</h2>
     <div class="section-divider"></div>
-
     <div class="content-warning">
       <div class="content-warning-icon"><img src="assets/icons/warning.svg" alt="" width="20" height="20"></div>
       <div class="content-warning-text">
         <strong>Aviso:</strong> crisis suicida sugerida, violencia doméstica, abuso de sustancias, coma. Sin representación gráfica.
       </div>
     </div>
-
     <div class="story-grid">
       <article class="story-act">
         <div class="story-act-num">PRÓLOGO</div>
         <h3>El accidente</h3>
-        <p>Nara lleva semanas en coma. Su hermano le pone una cinta vieja que guardaban desde niños. La música la transporta al <strong>Andén Cero</strong>, una estación que se deteriora.</p>
+        <p>Nara lleva semanas en coma. Su hermano Tomás le pone una cinta vieja que guardaban desde niños. La música la transporta al <strong>Andén Cero</strong>, una estación que se deteriora. Una proyección de Tomás le explica la misión: encontrarse a sí misma y derrotar a <strong>La Voz Original</strong>.</p>
       </article>
-
       <article class="story-act">
         <div class="story-act-num">CAP 1-2</div>
         <h3>La casa y la familia</h3>
-        <p>Los primeros recuerdos: un padre borracho y abusivo, una madre drogadicta con resentimiento, y un hermano que se vuelve figura paterna y escudo.</p>
+        <p>Los primeros recuerdos: un padre borracho y abusivo, una madre drogadicta con resentimiento, y un hermano (Tomás) que se vuelve figura paterna y escudo. Con ayuda de sus emociones, Nara debe recuperar cada recuerdo.</p>
       </article>
-
       <article class="story-act">
         <div class="story-act-num">CAP 3-4</div>
         <h3>La noche del coma</h3>
-        <p>Lo que pasó. Lo que llevó a Nara hasta esa cama de hospital. Hay que mirarlo de frente, sin huir, para que La Voz pierda fuerza.</p>
+        <p>Lo que pasó esa noche. Lo que llevó a Nara hasta esa cama de hospital. El accidente no fue un accidente: fue la suma de todo lo que calló durante años. Hay que mirarlo de frente para que La Voz pierda fuerza.</p>
       </article>
-
       <article class="story-act">
         <div class="story-act-num">FINAL</div>
         <h3>El despertar</h3>
-        <p>Derrotada La Voz Original, Nara despierta. Su hermano la abraza. Ella cree que todo fue un sueño loco, pero algo dentro cambió para siempre.</p>
+        <p>Derrotada La Voz Original, Nara despierta. Tomás la abraza. Ella cree que todo fue un sueño loco, pero algo dentro cambió para siempre. Tres desenlaces posibles según la exploración.</p>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============ EMOCIONES (más visual, menos texto) ============ -->
+<!-- PERSONAJES -->
+<section class="characters" id="personajes">
+  <div class="container">
+    <div class="section-kicker">Cast</div>
+    <h2 class="section-title">Personajes principales</h2>
+    <div class="section-divider"></div>
+    <p class="section-subtitle">Diseños de personaje con sprites oficiales del juego (48×48 px, pixel-art).</p>
+
+    <div class="char-grid">
+      <!-- NARA -->
+      <div class="char-card">
+        <div class="char-card-header">
+          <div class="char-card-portrait"><img src="assets/sprites/nara_idle.png" alt="Nara"></div>
+          <div>
+            <div class="char-card-name">NARA</div>
+            <div class="char-card-role">Protagonista · Adolescente en coma</div>
+          </div>
+        </div>
+        <div class="char-card-body">
+          <div class="char-card-sprites"><img src="assets/characters/nara_sheet.png" alt="Nara sprite sheet"></div>
+          <p class="char-card-desc">Adolescente hospitalizada en coma. En su mente recorre el Andén Cero para buscar su identidad. Creció en una casa con padre borracho abusivo y madre drogadicta. Su hermano Tomás fue su figura paterna. El color de su cabello cambia según la emoción activa.</p>
+          <div class="char-card-stats">
+            <div class="char-stat"><div class="char-stat-label">Sprite</div><div class="char-stat-value">48×48 px · 40 frames</div></div>
+            <div class="char-stat"><div class="char-stat-label">Animaciones</div><div class="char-stat-value">Idle, Run, Jump (×2 dirs)</div></div>
+            <div class="char-stat"><div class="char-stat-label">Edad</div><div class="char-stat-value">14-16 años</div></div>
+            <div class="char-stat"><div class="char-stat-label">Habilidad</div><div class="char-stat-value">Cambia de emoción (1-4)</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TOMÁS / HERMANO -->
+      <div class="char-card">
+        <div class="char-card-header">
+          <div class="char-card-portrait"><img src="assets/sprites/brother_idle.png" alt="Tomás"></div>
+          <div>
+            <div class="char-card-name">TOMÁS</div>
+            <div class="char-card-role">Hermano mayor · Figura paterna</div>
+          </div>
+        </div>
+        <div class="char-card-body">
+          <div class="char-card-sprites"><img src="assets/characters/brother_sheet.png" alt="Tomás sprite sheet"></div>
+          <p class="char-card-desc">En la vida real cuida a Nara en el hospital. Creció protegiéndola del padre abusivo, recibiendo golpes. Trabajó turnos dobles para sostener la casa. En el Andén Cero aparece como proyección translúcida con bordes dorados: no es el Tomás real, no conoce el presente. Encarna lo que Nara recuerda de él.</p>
+          <div class="char-card-stats">
+            <div class="char-stat"><div class="char-stat-label">Sprite</div><div class="char-stat-value">48×48 px · 6 frames</div></div>
+            <div class="char-stat"><div class="char-stat-label">Rol</div><div class="char-stat-value">NPC guia + cuidador</div></div>
+            <div class="char-stat"><div class="char-stat-label">Edad</div><div class="char-stat-value">20-25 años</div></div>
+            <div class="char-stat"><div class="char-stat-label">Aparición</div><div class="char-stat-value">Hospital + Andén Cero</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ECO MENOR -->
+      <div class="char-card">
+        <div class="char-card-header">
+          <div class="char-card-portrait"><img src="assets/sprites/eco-menor.png" alt="Eco Menor"></div>
+          <div>
+            <div class="char-card-name">ECO MENOR</div>
+            <div class="char-card-role">Jefe Mundo 1 · Primer eco</div>
+          </div>
+        </div>
+        <div class="char-card-body">
+          <div class="char-card-sprites"><img src="assets/characters/eco-menor_sheet.png" alt="Eco Menor sprite sheet"></div>
+          <p class="char-card-desc">Primer jefe. Vigía del Andén Cero. Una voz que repite lo que Nara pensaba de sí misma: "si hubiera hecho las cosas distinto". Pero era apenas una niña. No tenía que haber hecho nada.</p>
+          <div class="char-card-stats">
+            <div class="char-stat"><div class="char-stat-label">Sprite</div><div class="char-stat-value">40×40 px · 25 frames</div></div>
+            <div class="char-stat"><div class="char-stat-label">HP</div><div class="char-stat-value">8</div></div>
+            <div class="char-stat"><div class="char-stat-label">Fases</div><div class="char-stat-value">3</div></div>
+            <div class="char-stat"><div class="char-stat-label">Nivel</div><div class="char-stat-value">L3 · Mundo 1</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- GUARDIÁN -->
+      <div class="char-card">
+        <div class="char-card-header">
+          <div class="char-card-portrait"><img src="assets/sprites/guardian.png" alt="Guardián"></div>
+          <div>
+            <div class="char-card-name">GUARDIÁN DEL SILENCIO</div>
+            <div class="char-card-role">Jefe Mundo 2 · Coloso de piedra</div>
+          </div>
+        </div>
+        <div class="char-card-body">
+          <div class="char-card-sprites"><img src="assets/characters/guardian_sheet.png" alt="Guardián sprite sheet"></div>
+          <p class="char-card-desc">Coloso bajo y pesado que pisa el suelo. NUNCA flota. Representa lo que pesa cuando nadie pregunta. Tomás callaba todo: trabajaba turnos dobles para sostener la casa. Nara solo veía la silla vacía.</p>
+          <div class="char-card-stats">
+            <div class="char-stat"><div class="char-stat-label">Sprite</div><div class="char-stat-value">44×44 px · 32 frames</div></div>
+            <div class="char-stat"><div class="char-stat-label">HP</div><div class="char-stat-value">14</div></div>
+            <div class="char-stat"><div class="char-stat-label">Fases</div><div class="char-stat-value">3</div></div>
+            <div class="char-stat"><div class="char-stat-label">Ataques</div><div class="char-stat-value">Charge, Slam, Recover</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- LA VOZ ORIGINAL -->
+      <div class="char-card">
+        <div class="char-card-header">
+          <div class="char-card-portrait"><img src="assets/sprites/voz-original.png" alt="La Voz Original"></div>
+          <div>
+            <div class="char-card-name">LA VOZ ORIGINAL</div>
+            <div class="char-card-role">Jefe final · Antagonista</div>
+          </div>
+        </div>
+        <div class="char-card-body">
+          <div class="char-card-sprites"><img src="assets/characters/voz-original_sheet.png" alt="La Voz Original sprite sheet"></div>
+          <p class="char-card-desc">La entidad que controla el Andén Cero y lo está destruyendo. En el fondo, es la parte de Nara que decidió callar, que decidió que no valía la pena seguir. Vencerla no es matarla; es mirarla y decirle: "vos también sos parte de esto, pero ya no mandas".</p>
+          <div class="char-card-stats">
+            <div class="char-stat"><div class="char-stat-label">Sprite</div><div class="char-stat-value">44×44 px · 38 frames</div></div>
+            <div class="char-stat"><div class="char-stat-label">HP</div><div class="char-stat-value">20</div></div>
+            <div class="char-stat"><div class="char-stat-label">Fases</div><div class="char-stat-value">4 (una por emoción)</div></div>
+            <div class="char-stat"><div class="char-stat-label">Patrones</div><div class="char-stat-value">Proyectiles, minions, bullet hell</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMOCIONES -->
 <section class="emotions" id="emociones">
   <div class="container">
     <div class="section-kicker">Mecánica central</div>
     <h2 class="section-title">Las 4 emociones</h2>
     <div class="section-divider"></div>
-    <p class="section-subtitle">Se desbloquean por capítulo. Cada una es un poder distinto.</p>
-
+    <p class="section-subtitle">Se desbloquean por capítulo. Cada una es un poder distinto. El color del cabello de Nara cambia según la emoción activa.</p>
     <div class="emotion-grid">
       <article class="emotion-card ira">
         <div class="emotion-swatch"></div>
         <div class="emotion-name">IRA</div>
-        <div class="emotion-sub">CAP 1 · BRASA</div>
-        <p class="emotion-mech">Dash ofensivo. Rompe barreras.</p>
+        <div class="emotion-sub">CAP 1 · BRASA · #D6684A</div>
+        <p class="emotion-mech">Dash ofensivo. Rompe barreras (B). Calienta válvulas (V). La carrera es más veloz.</p>
       </article>
       <article class="emotion-card calma">
         <div class="emotion-swatch"></div>
         <div class="emotion-name">TRISTEZA</div>
-        <div class="emotion-sub">CAP 2 · MAREA</div>
-        <p class="emotion-mech">Flota sobre agua. Activa vapor.</p>
+        <div class="emotion-sub">CAP 2 · MAREA · #5FA399</div>
+        <p class="emotion-mech">Flota sobre agua (W). Reduce velocidad de caída. Activa vapor de válvulas calientes.</p>
       </article>
       <article class="emotion-card miedo">
         <div class="emotion-swatch"></div>
         <div class="emotion-name">MIEDO</div>
-        <div class="emotion-sub">CAP 3 · VOLTAJE</div>
-        <p class="emotion-mech">Revela plataformas ocultas.</p>
+        <div class="emotion-sub">CAP 3 · VOLTAJE · #8C7AB4</div>
+        <p class="emotion-mech">Revela plataformas ocultas (H). La mejora Visión Miedo amplía el radio de revelación.</p>
       </article>
       <article class="emotion-card alegria">
         <div class="emotion-swatch"></div>
         <div class="emotion-name">ALEGRÍA</div>
-        <div class="emotion-sub">CAP 4 · BRISA</div>
-        <p class="emotion-mech">Doble salto. Aprovecha el viento.</p>
+        <div class="emotion-sub">CAP 4 · BRISA · #B9A85E</div>
+        <p class="emotion-mech">Habilita el doble salto. Permite aprovechar corrientes de viento (^) para alcanzar zonas altas.</p>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============ GALERÍA (más grande, menos texto) ============ -->
+<!-- CORE LOOP -->
+<section class="coreloop" id="coreloop">
+  <div class="container">
+    <div class="section-kicker">Diseño de juego</div>
+    <h2 class="section-title">Core loop</h2>
+    <div class="section-divider"></div>
+    <div class="coreloop-diagram">
+      <div class="coreloop-step">EXPLORAR</div>
+      <span class="coreloop-arrow">→</span>
+      <div class="coreloop-step">INTERPRETAR<br>(cambiar emoción)</div>
+      <span class="coreloop-arrow">→</span>
+      <div class="coreloop-step">SUPERAR<br>RETO</div>
+      <span class="coreloop-arrow">→</span>
+      <div class="coreloop-step">RECUPERAR<br>RECUERDO</div>
+      <span class="coreloop-arrow">↻</span>
+    </div>
+    <p class="coreloop-desc">El ciclo va de leer a actuar, y de la acción a una nueva lectura: la estación cambia, aparecen piezas del pasado y el siguiente obstáculo invita a probar otra emoción.</p>
+  </div>
+</section>
+
+<!-- MECÁNICAS -->
+<section class="mechanics" id="mecanicas">
+  <div class="container">
+    <div class="section-kicker">Gameplay</div>
+    <h2 class="section-title">Mecánicas destacadas</h2>
+    <div class="section-divider"></div>
+    <div class="mech-grid">
+      <div class="mech-card">
+        <div class="mech-card-title">COYOTE TIME</div>
+        <div class="mech-card-desc">7 frames para saltar tras abandonar el borde. Perdonando pero preciso.</div>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card-title">JUMP BUFFER</div>
+        <div class="mech-card-desc">8 frames de memoria: pulsa saltar antes de aterrizar y salta al instante.</div>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card-title">SALTO VARIABLE</div>
+        <div class="mech-card-desc">Soltar el botón corta el salto. Control total de la altura.</div>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card-title">DASH CON I-FRAMES</div>
+        <div class="mech-card-desc">Dash de 10 frames con 14 frames de invulnerabilidad. Cooldown de 26 frames.</div>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card-title">WALL SLIDE + JUMP</div>
+        <div class="mech-card-desc">Deslizamiento por paredes a 2.2 px/frame + salto de pared direccional.</div>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card-title">HIT-STOP</div>
+        <div class="mech-card-desc">4 frames de congelación al impactar. Sensación de peso en el combate.</div>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card-title">SCREEN SHAKE</div>
+        <div class="mech-card-desc">Trauma² basado, integer-snapped. Sacudida proporcional al impacto.</div>
+      </div>
+      <div class="mech-card">
+        <div class="mech-card-title">PARTÍCULAS</div>
+        <div class="mech-card-desc">Bursts de partículas en cada acción: salto, aterrizaje, dash, ataque, muerte.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALERÍA -->
 <section class="gallery" id="galeria">
   <div class="container">
     <div class="section-kicker">Capturas</div>
@@ -180,37 +378,39 @@
   </div>
 </section>
 
-<!-- ============ FICHA TÉCNICA (compacta) ============ -->
+<!-- FICHA TÉCNICA -->
 <section class="specs" id="ficha">
   <div class="container">
     <div class="section-kicker">Datos</div>
     <h2 class="section-title">Ficha técnica</h2>
     <div class="section-divider"></div>
-
     <div class="specs-table">
       <div class="specs-row"><div class="specs-label">TÍTULO</div><div class="specs-value"><strong>EMO-SHIFT TRAVEL</strong> · Viaje de Recuerdos</div></div>
       <div class="specs-row"><div class="specs-label">ESTUDIO</div><div class="specs-value">Grillo Studio</div></div>
       <div class="specs-row"><div class="specs-label">CONCEPTO</div><div class="specs-value">Jhon Didier Urbano Hernandez</div></div>
       <div class="specs-row"><div class="specs-label">GÉNERO</div><div class="specs-value">Plataformas 2D · Acción · Narrativa emocional</div></div>
       <div class="specs-row"><div class="specs-label">PLATAFORMA</div><div class="specs-value">Web (HTML5) · Chrome, Edge, Firefox</div></div>
+      <div class="specs-row"><div class="specs-label">MOTOR</div><div class="specs-value">Canvas 2D + JavaScript vanilla (46 módulos)</div></div>
       <div class="specs-row"><div class="specs-label">IDIOMA</div><div class="specs-value">Español (Colombia)</div></div>
       <div class="specs-row"><div class="specs-label">NIVELES</div><div class="specs-value"><strong>21</strong> campaña + <strong>6</strong> secretos = 27 mapas</div></div>
       <div class="specs-row"><div class="specs-label">JEFES</div><div class="specs-value"><strong>4</strong> con intros cinemáticas</div></div>
       <div class="specs-row"><div class="specs-label">FINALES</div><div class="specs-value"><strong>3</strong> desenlaces</div></div>
       <div class="specs-row"><div class="specs-label">MULTIJUGADOR</div><div class="specs-value">Co-op local (2 jugadores) · Online experimental</div></div>
-      <div class="specs-row"><div class="specs-label">VERSIÓN</div><div class="specs-value"><strong>v13.18</strong> · 6 nov 2026</div></div>
+      <div class="specs-row"><div class="specs-label">RESOLUCIÓN</div><div class="specs-value">960×540 px · Tiles 28×28 · Sprites 48×48</div></div>
+      <div class="specs-row"><div class="specs-label">AUDIO</div><div class="specs-value">9 pistas MP3 originales · SFX procedural Web Audio</div></div>
+      <div class="specs-row"><div class="specs-label">GUARDADO</div><div class="specs-value">LocalStorage · Sin DRM · Sin servidores</div></div>
+      <div class="specs-row"><div class="specs-label">VERSIÓN</div><div class="specs-value"><strong>v13.20</strong></div></div>
       <div class="specs-row"><div class="specs-label">PEGI</div><div class="specs-value">+12 (temas adultos sugeridos)</div></div>
     </div>
   </div>
 </section>
 
-<!-- ============ EQUIPO (solo Jhon + IAs) ============ -->
+<!-- EQUIPO -->
 <section class="team" id="equipo">
   <div class="container">
     <div class="section-kicker">Créditos</div>
     <h2 class="section-title">Equipo</h2>
     <div class="section-divider"></div>
-
     <div class="team-grid">
       <div class="team-card">
         <div class="team-avatar">JU</div>
@@ -218,7 +418,6 @@
         <div class="team-role">Concepto · Historia · Pixel-art · Dirección</div>
       </div>
     </div>
-
     <div class="collab-list">
       <h4>INTELIGENCIAS ARTIFICIALES QUE APOYARON</h4>
       <ul>
@@ -227,7 +426,6 @@
         <li><strong>Google Flow Music</strong> — Música, efectos, diseño sonoro</li>
       </ul>
     </div>
-
     <div class="collab-list">
       <h4>RECURSOS DE TERCEROS</h4>
       <ul>
@@ -235,7 +433,6 @@
         <li><strong>itch.io</strong> — Recursos externos</li>
       </ul>
     </div>
-
     <div class="collab-list">
       <h4>AGRADECIMIENTOS</h4>
       <p>A quienes acompañan, cuidan y se atreven a preguntar cómo está alguien.</p>
@@ -243,20 +440,17 @@
   </div>
 </section>
 
-<!-- ============ CONTACTO ============ -->
+<!-- CONTACTO -->
 <section class="contact" id="contacto">
   <div class="container-narrow">
     <div class="section-kicker">Press</div>
     <h2 class="section-title">Contacto y descargas</h2>
     <div class="section-divider" style="margin-left:auto;margin-right:auto"></div>
-
     <a href="mailto:Durbanoh@correo.usbcali.edu.co" class="contact-email">Durbanoh@correo.usbcali.edu.co</a>
     <a href="mailto:jeiron122@outlook.es" class="contact-email" style="margin-top:8px">jeiron122@outlook.es</a>
-
     <div class="social-row">
       <a href="https://clarity-studio.itch.io/" class="social-btn" target="_blank" rel="noopener">ITCH.IO · CLARITY STUDIOS</a>
     </div>
-
     <div class="assets-list">
       <h4>DESCARGAS</h4>
       <ul>
@@ -272,7 +466,6 @@
 
 </main>
 
-<!-- ============ FOOTER ============ -->
 <footer class="footer">
   <div class="footer-logo">EMO-SHIFT TRAVEL</div>
   <p class="footer-copy">
@@ -282,7 +475,6 @@
   </p>
 </footer>
 
-<!-- ============ LIGHTBOX ============ -->
 <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Imagen ampliada">
   <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">×</button>
   <button class="lightbox-nav prev" id="lightboxPrev" aria-label="Anterior">‹</button>
@@ -292,5 +484,92 @@
 </div>
 
 <script src="js/presskit.js"></script>
+<script>
+// Trailer procedural: muestra capturas del juego con música
+function startTrailer(){
+  const canvas = document.getElementById('trailerCanvas');
+  const ctx = canvas.getContext('2d');
+  const images = [
+    'assets/screenshots/menu.png',
+    'assets/screenshots/prologue_hospital.png',
+    'assets/screenshots/l2.png',
+    'assets/screenshots/boss_l6.png',
+    'assets/screenshots/cinematica_casa_revision.png',
+    'assets/screenshots/tienda.png',
+    'assets/screenshots/mapa.png',
+    'assets/screenshots/boss_l12.png',
+    'assets/screenshots/cinematica_final_revision.png',
+  ];
+  const titles = [
+    'EMO-SHIFT TRAVEL',
+    'EL ACCIDENTE',
+    'EL ANDÉN CERO',
+    'GUARDIÁN DEL SILENCIO',
+    'LA CASA',
+    'TIENDA DE RECUERDOS',
+    'MAPA DE VIAJE',
+    'LA VOZ ORIGINAL',
+    'EL DESPERTAR',
+  ];
+  const subs = [
+    'Viaje de Recuerdos',
+    'Nara en coma',
+    'Una estación imposible',
+    'Jefe del Mundo 2',
+    'Recuerdos familiares',
+    'Mejoras y cosméticos',
+    '27 niveles',
+    'Jefe final · 4 fases',
+    '3 finales',
+  ];
+  let idx = 0;
+  let frame = 0;
+  const FRAMES_PER_SCENE = 180; // 3 segundos por escena a 60fps
+  
+  function drawScene(){
+    const img = new Image();
+    img.onload = function(){
+      ctx.fillStyle = '#0d1218';
+      ctx.fillRect(0,0,canvas.width,canvas.height);
+      // Dibujar imagen centrada
+      const scale = Math.max(canvas.width/img.width, canvas.height/img.height);
+      const w = img.width * scale;
+      const h = img.height * scale;
+      ctx.drawImage(img, (canvas.width-w)/2, (canvas.height-h)/2, w, h);
+      // Fade in/out
+      const phase = frame / FRAMES_PER_SCENE;
+      let alpha = 1;
+      if(phase < 0.15) alpha = phase / 0.15;
+      else if(phase > 0.85) alpha = (1 - phase) / 0.15;
+      ctx.fillStyle = 'rgba(13,18,24,' + (1-alpha) + ')';
+      ctx.fillRect(0,0,canvas.width,canvas.height);
+      // Texto
+      if(alpha > 0.3){
+        ctx.globalAlpha = alpha;
+        ctx.fillStyle = '#e09a72';
+        ctx.font = 'bold 28px monospace';
+        ctx.textAlign = 'center';
+        ctx.fillText(titles[idx], canvas.width/2, canvas.height - 60);
+        ctx.fillStyle = '#d4cfae';
+        ctx.font = '14px monospace';
+        ctx.fillText(subs[idx], canvas.width/2, canvas.height - 30);
+        ctx.globalAlpha = 1;
+      }
+    };
+    img.src = images[idx];
+  }
+  
+  function loop(){
+    drawScene();
+    frame++;
+    if(frame >= FRAMES_PER_SCENE){
+      frame = 0;
+      idx = (idx + 1) % images.length;
+    }
+    requestAnimationFrame(loop);
+  }
+  loop();
+}
+</script>
 </body>
 </html>
